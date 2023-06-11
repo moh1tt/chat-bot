@@ -17,3 +17,7 @@ def predict():
     response = chatbot_response(message)
     message = {"answer": response}
     return jsonify(message)
+
+
+# if __name__ == "__main__":
+#     app.run(port=5050)
