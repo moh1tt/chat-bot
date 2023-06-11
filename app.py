@@ -6,6 +6,11 @@ app = Flask(__name__)
 CORS(app)
 
 
+@app.get("/")
+def home():
+    return render_template("index.html")
+
+
 @app.post("/predict")
 def predict():
     message = request.get_json().get("message")
@@ -15,4 +20,4 @@ def predict():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8080)
+    app.run()
