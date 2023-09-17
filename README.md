@@ -1,4 +1,6 @@
 # ChatBot using Pytorch
+<img src="https://github.com/moh1tt/chat-bot/assets/60008230/6e44e001-8804-4606-8ac6-a86f5262514e" width=40% height=40%>
+
 Chatbots, powered by Natural Language Processing (NLP), have revolutionized the way we interact with technology. 
 NLP enables chatbots to understand and respond to human language in a remarkably human-like manner, making them invaluable tools in various industries. 
 These intelligent programs can engage in conversations, answer queries, and even provide personalized recommendations, enhancing customer service, streamlining information retrieval, 
